@@ -30,7 +30,7 @@ const FoodCard = ({ food }) => {
       <div className="foodcard-image-wrapper">
         <img 
           src={food.image 
-            ? `http://localhost:5000/uploads/${food.image}`
+            ? `https://food-backend-k0cm.onrender.com/uploads/${food.image}`
             : 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600'
           }
           alt={food.name}
