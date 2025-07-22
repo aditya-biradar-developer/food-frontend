@@ -245,7 +245,7 @@ const ManageFood = () => {
                       <td>
                         <div className="edit-image-container">
                           <img 
-                            src={editImagePreview || `http://localhost:5000/uploads/${food.image}`} 
+                            src={editImagePreview || `https://food-backend-k0cm.onrender.com/uploads/${food.image}`} 
                             alt={food.name}
                             className="edit-image-preview"
                           />
@@ -338,7 +338,7 @@ const ManageFood = () => {
                       <td>
                         <div className="food-image-cell">
                           <img 
-                            src={`http://localhost:5000/uploads/${food.image}`} 
+                            src={`https://food-backend-k0cm.onrender.com/uploads/${food.image}`} 
                             alt={food.name}
                             onError={(e) => {
                               e.target.src = 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=400';
