@@ -38,7 +38,7 @@ const Cart = () => {
           <div key={item._id} className="cart-item">
             <div className="cart-item-image">
               <img 
-                src={`http://localhost:5000/uploads/${item.image}`} 
+                src={`https://food-backend-k0cm.onrender.com/uploads/${item.image}`} 
                 alt={item.name}
                 onError={(e) => {
                   e.target.src = 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=200';
